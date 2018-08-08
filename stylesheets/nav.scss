@@ -1,0 +1,27 @@
+body {
+    margin:0;
+
+    #main {
+        .material-icons {
+            position: absolute;
+            top: 7%;
+            left: 5%;
+            cursor: pointer;
+            font-size: 54px;
+        }
+        #locationHome, #locationLevel1, #locationlevel2 {
+            position: absolute;
+            left: 5%;
+            cursor: pointer;
+        }
+        #locationHome {
+            top: 50%;
+        }
+        #locationLevel1 {
+            top: 40%;
+        }
+        #locationLevel2 {
+            top: 30%;
+        }
+    }
+}
